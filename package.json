@@ -6,7 +6,8 @@
   "scripts": {
     "compile": "tsc",
     "prepublish": "npm run compile",
-    "e2e": "concurrently --kill-others \"tsc -w\" \"nodemon ./e2e/index.js\"",
+    "dev": "concurrently --kill-others \"tsc -w\" \"nodemon ./e2e/index.js\"",
+    "start": "node index.js",
     "test": "mocha --recursive lib/**/*.js"
   },
   "dependencies": {

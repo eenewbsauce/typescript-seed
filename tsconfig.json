@@ -5,7 +5,7 @@
         "preserveConstEnums": true,
     },
     "include": [
-        "e2e/**/*",
+        "index.ts",
         "lib/**/*"
     ],
     "exclude": [
